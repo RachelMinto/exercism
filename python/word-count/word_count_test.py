@@ -3,8 +3,6 @@ import unittest
 
 from word_count import word_count
 
-
-# to be backwards compatible with the old Python 2.X
 def decode_if_needed(string):
     try:
         return string.decode('utf-8')
